@@ -31,7 +31,7 @@ Atlas) reachable at `MONGO_URI`.
 cd frontend
 cp .env.example .env       # defaults should work for local dev
 npm install
-npm start
+npm run dev
 ```
 
 The app runs at `http://localhost:3000` and expects the API at
